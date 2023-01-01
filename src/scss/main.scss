@@ -1,0 +1,127 @@
+body{
+    background-color: aqua;
+    
+   
+   
+}
+
+.snow{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.6;
+    position: absolute;
+animation:snow-move 10s infinite 1.4s;
+box-shadow: random(100) + px 8px 10px white, random(200) + px 8px 10px white,
+random(300) + px 8px 10px white, random(900) + px 8px 10px white,
+random(400) + px 8px 10px white, random(1200) + px 8px 10px white,
+random(500) + px 8px 10px white, random(1500) + px 8px 10px white,
+random(600) + px 8px 10px white, random(1600) + px 8px 10px white,
+random(700) + px 8px 10px white, random(13565) + px 8px 10px white,
+random(800) + px 8px 10px white, random(14565) + px 8px 10px white,
+random(900) + px 8px 10px white, random(17655) + px 8px 10px white,
+random(1000) + px 8px 10px white, random(19300) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1200) + px 8px 10px white, random(19770) + px 8px 10px white,
+random(1300) + px 8px 10px white, random(19800) + px 8px 10px white,
+random(1400) + px 8px 10px white, random(20000) + px 8px 10px white,
+random(1500) + px 8px 10px white, random(20200) + px 8px 10px white,
+random(1600) + px 8px 10px white, random(20300) + px 8px 10px white,
+random(1700) + px 8px 10px white, random(20700) + px 8px 10px white,
+random(1800) + px 8px 10px white, random(21000) + px 8px 10px white,
+random(1900) + px 8px 10px white, random(21200) + px 8px 10px white,
+random(2000) + px 8px 10px white, random(21500) + px 8px 10px white,
+random(2100) + px 8px 10px white, random(21900) + px 8px 10px white,
+random(2200) + px 8px 10px white, random(30000) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+random(1100) + px 8px 10px white, random(19700) + px 8px 10px white,
+
+}
+
+
+@keyframes snow-move {
+
+    0% {
+        opacity:0.6;
+    }
+    40% {
+        top: 20%;
+    }
+
+    60% {
+        top:40%;
+    }
+    80% {
+        top: 40%;
+    
+    }
+
+    100% {
+        top: 80%;
+    }
+}
+
+
+
+
+
+.text{ 
+ 
+    font-family: monospace; 
+    width: 50ch; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-left: 3px solid black; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    animation:typing 8s steps(26) infinite, blinking
+    step-end 0.5s infinite alternate;
+
+
+}
+
+
+    @keyframes typing {
+        from{
+            width: 0;
+        }
+        to{
+            width: 50ch;
+        }
+    }
+
+    @keyframes blinking {
+
+        0%{
+            border-color: black; 
+        }
+
+        50% { 
+            border-color: transparent; 
+            } 
+
+        100% { 
+            border-color: black; 
+                } 
+
+    } 
+
+    
+.steph{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+
+}

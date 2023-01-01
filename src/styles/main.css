@@ -1,0 +1,71 @@
+body {
+  background-color: aqua;
+}
+
+.snow {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.6;
+  position: absolute;
+  animation: snow-move 10s infinite 1.4s;
+  box-shadow: 36px 8px 10px white, 197px 8px 10px white, 15px 8px 10px white, 818px 8px 10px white, 368px 8px 10px white, 441px 8px 10px white, 79px 8px 10px white, 702px 8px 10px white, 312px 8px 10px white, 1167px 8px 10px white, 60px 8px 10px white, 7099px 8px 10px white, 569px 8px 10px white, 4894px 8px 10px white, 877px 8px 10px white, 10968px 8px 10px white, 240px 8px 10px white, 1031px 8px 10px white, 284px 8px 10px white, 3879px 8px 10px white, 1056px 8px 10px white, 16501px 8px 10px white, 697px 8px 10px white, 9433px 8px 10px white, 268px 8px 10px white, 10867px 8px 10px white, 1421px 8px 10px white, 9121px 8px 10px white, 1250px 8px 10px white, 14317px 8px 10px white, 430px 8px 10px white, 9027px 8px 10px white, 1028px 8px 10px white, 13890px 8px 10px white, 676px 8px 10px white, 7112px 8px 10px white, 1516px 8px 10px white, 10137px 8px 10px white, 1948px 8px 10px white, 21539px 8px 10px white, 1220px 8px 10px white, 11117px 8px 10px white, 584px 8px 10px white, 7417px 8px 10px white, 709px 8px 10px white, 12345px 8px 10px white, 707px 8px 10px white, 18793px 8px 10px white, 821px 8px 10px white, 5493px 8px 10px white, 980px 8px 10px white, 2704px 8px 10px white, 165px 8px 10px white, 12040px 8px 10px white, 736px 8px 10px white, 10402px 8px 10px white, 205px 8px 10px white, 8944px 8px 10px white, 343px 8px 10px white, 7416px 8px 10px white, 1035px 8px 10px white, 17668px 8px 10px white;
+}
+
+@keyframes snow-move {
+  0% {
+    opacity: 0.6;
+  }
+  40% {
+    top: 20%;
+  }
+  60% {
+    top: 40%;
+  }
+  80% {
+    top: 40%;
+  }
+  100% {
+    top: 80%;
+  }
+}
+.text {
+  font-family: monospace;
+  width: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
+  border-left: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  animation: typing 8s steps(26) infinite, blinking step-end 0.5s infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50ch;
+  }
+}
+@keyframes blinking {
+  0% {
+    border-color: black;
+  }
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: black;
+  }
+}
+.steph {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
